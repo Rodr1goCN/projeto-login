@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #4E248C, #6416DB);
+}
+
+img#img-log{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -120%);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 3px 8px black
+}
+
+.corpo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
+    box-shadow: 5px 3px 8px black;
+}
+
+.material-symbols-outlined {
+    margin: auto;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    width: 40px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #4E248C;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#Lemail{
+    display: block;
+    background-color: #4e248c2a;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+#Lsenha{
+    display: block;
+    background-color: #4e248c2a;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+main > h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-enviar{
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 4px;
+    width: 280px;
+    height: 30px;
+    background-color: #573ffe;
+    border:2px solid #7D39E6;
+    border-radius: 5px;
+}
+
+.btn-enviar:hover{
+    background-color: #8a39e6;
+    border: 2px solid #573FFE;
+    transition: background 1s;
+}
+
+.btn-enviar:active{
+    background-color: #C24CFC;
+}
+
+.btn-esq{
+    display: block;
+    text-decoration: none;
+    width: 280px;
+    height: 30px;
+    border: 1px solid #7D39E6;
+    font-size: 1em;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-esq:hover{
+    color: white;
+    background-color: #7D39E6;
+    transition: background 1s;
+}
+
+.Campo{
+    border: 2px solid #7D39E6 ;
+    width: 240px;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+
