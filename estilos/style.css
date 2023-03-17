@@ -141,3 +141,7 @@ p#texto2{
 input::placeholder{
     color: rgba(255, 255, 255, 0.615);
 }
+
+input{
+    color: rgb(255, 255, 255);
+}
