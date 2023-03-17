@@ -119,6 +119,7 @@ p#texto2{
     margin: 0 5px 5px 0px;
     text-align: center;
     border-radius: 5px;
+    padding-top: 5px;
 }
 
 .btn-esq:hover{
@@ -137,4 +138,6 @@ p#texto2{
     margin: 0 5px 5px 0;
 }
 
-
+input::placeholder{
+    color: rgba(255, 255, 255, 0.615);
+}
