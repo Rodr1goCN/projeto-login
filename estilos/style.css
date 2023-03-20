@@ -31,6 +31,8 @@ div#imagem{
     border-radius: 20px;
     box-shadow: 3px 2px 12px 2px #0000006b;
     overflow: hidden;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 .material-symbols-outlined {
