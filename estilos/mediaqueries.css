@@ -12,6 +12,38 @@ Grande telas: acima de 1200px
  @media screen and (min-width:768px) and (max-width: 992px){
     .corpo{
         width: 90vw ;
-        
+
     }
- }
+    .texto{
+        width: 90%;
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    .Campo{
+        float: right;
+        width: 40%;
+   }
+   .btn-enviar{
+        float: right;
+        width: 40%;
+   }
+   .btn-esq{
+        float: right;
+        width: 40%;
+   }
+}
+
+@media screen and (min-width: 992px) {
+    .corpo{
+        width: 950px;
+    }
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+}
