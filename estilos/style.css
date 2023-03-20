@@ -13,17 +13,10 @@ body{
 }
 
 div#imagem{
-    z-index: 1;
-    background-image: url('../imagens/pexels-sean-whang-804269\ \(1\).jpg');
+    background-image: url('../imagens/fundologin.jpg');
     background-size: cover;
     background-position: left bottom;
-    width: 300px;
     height: 250px;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -96%);
-    border-radius: 20px 20px 0 0;
 }
 
 .corpo{
@@ -31,13 +24,12 @@ div#imagem{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
-    margin: auto;
     width: 300px;
     height: 600px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 10px;
     box-shadow: 3px 2px 12px 2px #0000006b;
+    overflow: hidden;
 }
 
 .material-symbols-outlined {
@@ -79,19 +71,19 @@ div#imagem{
 
 main > h1{
     text-align: center;
-    margin-top: 238px;
+    margin-top: -2px;
 }
 
 p#texto2{
     font-size: 0.8em;
-    margin: 7px 0;
+    margin: 7px 10px;
 }
 
 .btn-enviar{
     cursor: pointer;
     color: white;
     font-size: 1.2em;
-    margin: 0 7px 7px 0px;
+    margin: 0px 10px;
     width: 280px;
     height: 35px;
     background-color: #573ffe;
@@ -112,11 +104,11 @@ p#texto2{
 .btn-esq{
     display: block;
     text-decoration: none;
-    width: 100%;
+    width: 280px;
     height: 35px;
     border: 1px solid #7D39E6;
     font-size: 1em;
-    margin: 0 5px 5px 0px;
+    margin: 7px 10px ;
     text-align: center;
     border-radius: 5px;
     padding-top: 5px;
@@ -132,10 +124,10 @@ p#texto2{
     background-color: #4E248C;
     border: 2px solid #4e248c ;
     display: block;
-    width: 100%;
+    width: 280px;
     height: 40px;
     border-radius:5px;
-    margin: 0 7px 7px 0;
+    margin: 7px 10px;
 }
 
 input::placeholder{
