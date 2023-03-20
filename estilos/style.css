@@ -18,11 +18,11 @@ div#imagem{
     background-size: cover;
     background-position: left bottom;
     width: 300px;
-    height: 300px;
+    height: 250px;
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -96%);
     border-radius: 20px 20px 0 0;
 }
 
@@ -79,19 +79,19 @@ div#imagem{
 
 main > h1{
     text-align: center;
-    margin-top: 286px;
+    margin-top: 238px;
 }
 
 p#texto2{
     font-size: 0.8em;
-    margin: 5px 0;
+    margin: 7px 0;
 }
 
 .btn-enviar{
     cursor: pointer;
     color: white;
     font-size: 1.2em;
-    margin: 0 5px 5px 0px;
+    margin: 0 7px 7px 0px;
     width: 280px;
     height: 35px;
     background-color: #573ffe;
@@ -135,7 +135,7 @@ p#texto2{
     width: 100%;
     height: 40px;
     border-radius:5px;
-    margin: 0 5px 5px 0;
+    margin: 0 7px 7px 0;
 }
 
 input::placeholder{
