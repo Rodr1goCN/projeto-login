@@ -11,39 +11,78 @@ Grande telas: acima de 1200px
 
  @media screen and (min-width:768px) and (max-width: 992px){
     .corpo{
-        width: 90vw ;
-
+        width: 90vw;
+        height: 290px;
+        transition: width .3s, height .3s;
     }
     .texto{
-        width: 90%;
+        width: 97%;
+        padding-left: 30.5%;
+        margin-bottom: 0px;
     }
     div#imagem{
         float: left;
         width: 30%;
         height: 100%;
     }
+    p{
+        margin-top: 10px;
+    }
     .Campo{
         float: right;
-        width: 40%;
+        width:66.3%;
+        margin-bottom: 0px;
+        margin-right:14px;
    }
+   #Lemail{
+        width: 91.5%;
+   }
+   #Lsenha{
+        width: 91.5%;
+   } 
    .btn-enviar{
         float: right;
-        width: 40%;
+        width:66.3%;
+        margin-top: 10px;
+        margin-right:14px;
    }
    .btn-esq{
         float: right;
-        width: 40%;
+        width:66.3%;
+        margin-right:14px;
    }
 }
 
 @media screen and (min-width: 992px) {
     .corpo{
         width: 950px;
+        height: 320px;
+    }
+    .texto{
+        font-size: 1em;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+        background-position: center left;
     }
-
+    p{
+        margin-top:10px ;
+    }
+    #Lemail{
+        width: 91.5%;
+    }
+    #Lsenha{
+        width: 91.5%;
+    }
+    .Campo{
+        width: 47.8%;
+    }
+    .btn-enviar{
+        width: 47.8%;
+    }
+    .btn-esq{
+        width: 47.8%;
+    }
 }

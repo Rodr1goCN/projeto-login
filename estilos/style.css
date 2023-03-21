@@ -26,7 +26,7 @@ div#imagem{
     left: 50%;
     transform: translate(-50%, -40%);
     width: 300px;
-    height: 600px;
+    height: 570px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 3px 2px 12px 2px #0000006b;
@@ -55,7 +55,7 @@ div#imagem{
     background-color: rgba(84, 18, 182, 0.725);
     margin-top: -37px;
     margin-left: 40px;
-    width: 236px;
+    width: 86%;
     height: 35px;
     border-radius: 5px;
     transform: translateY(0px);
@@ -66,18 +66,19 @@ div#imagem{
     background-color: rgba(84, 18, 182, 0.725);
     margin-top: -37px;
     margin-left: 40px;
-    width: 236px;
+    width: 86%;
     height: 35px;
     border-radius: 5px;
     transform: translateY(0px);
 }
 
-main > h1{
+main > div > h1{
     text-align: center;
     margin-top: -2px;
 }
 
-p.texto{
+.texto{
+    display: block;
     font-size: 0.8em;
     margin: 7px 10px;
 }
@@ -86,7 +87,7 @@ p.texto{
     cursor: pointer;
     color: white;
     font-size: 1.2em;
-    margin: 0px 10px;
+    margin: 0px 10px 10px 10px;
     width: 280px;
     height: 35px;
     background-color: #573ffe;
@@ -111,7 +112,7 @@ p.texto{
     height: 35px;
     border: 1px solid #7D39E6;
     font-size: 1em;
-    margin: 7px 10px ;
+    margin: 0px 10px ;
     text-align: center;
     border-radius: 5px;
     padding-top: 5px;
@@ -130,7 +131,7 @@ p.texto{
     width: 280px;
     height: 40px;
     border-radius:5px;
-    margin: 7px 10px;
+    margin: 10px;
 }
 
 input::placeholder{
