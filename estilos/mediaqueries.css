@@ -9,11 +9,13 @@ Desktop: 992px até 1200px
 Grande telas: acima de 1200px
  */
 
- @media screen and (min-width:768px) and (max-width: 991px){
+ @media screen and (min-width:768px) and (max-width: 991px){ /* Config. Tablet */
+    body{
+        background-image: linear-gradient(to top, #4E248C, #6416DB);
+    }
     .corpo{
         width: 90vw;
         height: 290px;
-        transition: width .3s, height .3s;
     }
     .texto{
         width: 97%;
@@ -34,12 +36,10 @@ Grande telas: acima de 1200px
         margin-bottom: 0px;
         margin-right:14px;
    }
-   #Lemail{
-        width: 92.8%;
+   div.Campo > input{
+    transform: translate(9%, -103%);
+    width: calc(100% - 7.9%);
    }
-   #Lsenha{
-        width: 92.8%;
-   } 
    .btn-enviar{
         float: right;
         width:66.3%;
@@ -53,7 +53,10 @@ Grande telas: acima de 1200px
    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* Config. Desktop */
+    body{
+        background-image: linear-gradient(to top, #4E248C, #6416DB);
+    }
     .corpo{
         width: 950px;
         height: 320px;
@@ -70,11 +73,9 @@ Grande telas: acima de 1200px
     p.texto2{
         margin-top:10px ;
     }
-    #Lemail{
-        width: 91.5%;
-    }
-    #Lsenha{
-        width: 91.5%;
+    div.Campo > input{
+        transform: translate(9%, -103%);
+        width: calc(100% - 7.9%);
     }
     .Campo{
         width: 47.8%;

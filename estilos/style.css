@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(to top, #4E248C, #6416DB);
+    background-color: #4E248C;
 }
 
 div#imagem{
@@ -50,26 +50,13 @@ div#imagem{
     'opsz' 48
 }
 
-#Lemail{
+div.Campo > input{
     display: block;
     background-color: rgba(84, 18, 182, 0.725);
-    margin-top: -37px;
-    margin-left: 40px;
-    width: 86%;
-    height: 40px;
+    height: 100%;
+    width: calc(100% - 12.8%);
+    transform: translate(15.1%, -104%);
     border-radius: 5px;
-    transform: translateY(-3px);
-}
-
-#Lsenha{
-    display: block;
-    background-color: rgba(84, 18, 182, 0.725);
-    margin-top: -37px;
-    margin-left: 40px;
-    width: 86%;
-    height: 40px;
-    border-radius: 5px;
-    transform: translateY(-3px);
 }
 
 main > div > h1{
@@ -138,6 +125,11 @@ input::placeholder{
     color: rgba(255, 255, 255, 0.615);
 }
 
-input{
-    color: rgb(255, 255, 255);
+div.Campo > input{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+div.Campo > input:focus-within{
+    background-color: rgb(255, 255, 255);
 }
