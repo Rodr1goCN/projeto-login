@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grande telas: acima de 1200px
  */
 
- @media screen and (min-width:768px) and (max-width: 992px){
+ @media screen and (min-width:768px) and (max-width: 991px){
     .corpo{
         width: 90vw;
         height: 290px;
@@ -35,10 +35,10 @@ Grande telas: acima de 1200px
         margin-right:14px;
    }
    #Lemail{
-        width: 91.5%;
+        width: 92.8%;
    }
    #Lsenha{
-        width: 91.5%;
+        width: 92.8%;
    } 
    .btn-enviar{
         float: right;
@@ -84,5 +84,8 @@ Grande telas: acima de 1200px
     }
     .btn-esq{
         width: 47.8%;
+    }
+    div.texto > h1{
+        font-size: 2em;
     }
 }

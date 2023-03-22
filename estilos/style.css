@@ -56,9 +56,9 @@ div#imagem{
     margin-top: -37px;
     margin-left: 40px;
     width: 86%;
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
-    transform: translateY(0px);
+    transform: translateY(-3px);
 }
 
 #Lsenha{
@@ -67,9 +67,9 @@ div#imagem{
     margin-top: -37px;
     margin-left: 40px;
     width: 86%;
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
-    transform: translateY(0px);
+    transform: translateY(-3px);
 }
 
 main > div > h1{
@@ -140,4 +140,8 @@ input::placeholder{
 
 input{
     color: rgb(255, 255, 255);
+}
+
+input:focus-within{
+    background-color: rgba(255, 255, 255, 0);
 }
